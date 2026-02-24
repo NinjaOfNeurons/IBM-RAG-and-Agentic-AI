@@ -1,7 +1,3 @@
-Absolutely 🙂 Here are your notes rewritten in clean **Markdown (.md) format**:
-
----
-
 # Develop Generative AI Applications – Getting Started
 
 ## 1. Introduction to Artificial Intelligence (AI)
