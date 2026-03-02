@@ -10,7 +10,7 @@ The course explores how to build intelligent AI systems using:
 * Tool integration and memory handling
 * Real-world enterprise AI use cases
 
-## 📌 What You’ll Find Here
+## What You’ll Find Here
 
 * Notes and key concepts
 * Hands-on labs and experiments
@@ -18,7 +18,7 @@ The course explores how to build intelligent AI systems using:
 * Mini-projects and implementations
 * Reflections and insights
 
-## 🎯 Goal
+##  Goal
 
 To build practical knowledge in designing and deploying RAG-based and Agentic AI systems using modern AI frameworks and tools.
 
