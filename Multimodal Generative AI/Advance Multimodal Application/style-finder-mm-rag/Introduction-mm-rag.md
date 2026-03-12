@@ -1,7 +1,4 @@
 
-![alt text](image.png)
-
-
 # Introduction to Multimodal Retrieval Augmented Generation (MM-RAG)
 
 ## Learning Objectives
@@ -13,6 +10,8 @@ After studying MM-RAG, you should be able to:
 * Design **generative models using multimodal context**.
 
 ---
+![alt text](image.png)
+
 
 # What is MM-RAG?
 
