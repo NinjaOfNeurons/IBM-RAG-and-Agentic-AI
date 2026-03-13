@@ -31,7 +31,7 @@ What is 3 + 2?
 Workflow:
 
 ```
-
+![alt text](image.png)
 User Query
 ↓
 LLM identifies tool
