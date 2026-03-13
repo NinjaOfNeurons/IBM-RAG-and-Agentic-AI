@@ -1,6 +1,3 @@
-
-
-
 # Build Interactive LLM Agents
 
 ## 1. Overview
@@ -21,11 +18,9 @@ The system moves from **basic tool integration → fully interactive agent workf
 
 An interactive agent follows a multi-step process.
 
-```
-
 ![alt text](image-1.png)
 
-
+```
 User Query
 ↓
 Add query to chat history
