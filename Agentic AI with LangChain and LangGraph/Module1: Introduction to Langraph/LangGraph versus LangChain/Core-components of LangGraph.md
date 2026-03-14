@@ -9,7 +9,7 @@
 ---
 
 ## **2. Graph Structure**
-
+![alt text](image-1.png)
 ### **Nodes**
 
 * Represent individual **steps or functions** that perform computation.
@@ -71,6 +71,7 @@
 ---
 
 ## **6. Visualization**
+![alt text](image.png)
 
 * Graphs can be visualized using **Mermaid diagrams**.
 * Core primitives (nodes & edges) are **clearly represented**.
