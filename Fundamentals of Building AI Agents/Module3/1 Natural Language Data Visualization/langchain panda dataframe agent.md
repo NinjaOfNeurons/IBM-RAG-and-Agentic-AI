@@ -1,5 +1,3 @@
-
-
 # LangChain Pandas DataFrame Agent — Revision Notes
 
 ## 1. Purpose
@@ -21,7 +19,7 @@ Best suited for:
 
 ---
 
-# 2. Key Characteristics
+## 2. Key Characteristics
 
 ![alt text](image.png)
 
@@ -52,7 +50,7 @@ Possible outputs:
 
 ---
 
-# 3. Required Libraries
+## 3. Required Libraries
 
 ```python
 import pandas as pd
@@ -75,7 +73,7 @@ Example fields:
 
 ---
 
-# 4. IBM watsonx.ai Model Setup
+## 4. IBM watsonx.ai Model Setup
 
 ### Import Generation Parameters
 
@@ -98,7 +96,7 @@ Configuration includes:
 
 ---
 
-# 5. Connecting watsonx Model to LangChain
+## 5. Connecting watsonx Model to LangChain
 
 ### Import Required Classes
 
@@ -120,7 +118,7 @@ This integrates **watsonx LLM with LangChain tools**.
 
 ---
 
-# 6. Creating the Pandas Agent
+## 6. Creating the Pandas Agent
 
 Import agent:
 
@@ -150,7 +148,7 @@ agent = create_pandas_dataframe_agent(
 
 ---
 
-# 7. Querying the Data
+## 7. Querying the Data
 
 Example query:
 
@@ -160,7 +158,7 @@ agent.invoke("How many rows are in this file?")
 
 Output:
 
-```
+```text
 395 rows
 ```
 
@@ -172,17 +170,17 @@ len(df)
 
 ---
 
-# 8. Example Data Analysis Query
+## 8. Example Data Analysis Query
 
 Prompt:
 
-```
+```text
 How many students are 18 years old?
 ```
 
 Result:
 
-```
+```text
 82 students
 ```
 
@@ -195,11 +193,11 @@ len(...)
 
 ---
 
-# 9. Generating Visualizations
+## 9. Generating Visualizations
 
 Example prompt:
 
-```
+```text
 Plot the gender count with bars
 ```
 
@@ -213,11 +211,11 @@ No manual coding required.
 
 ---
 
-# 10. How the Agent Works Internally
+## 10. How the Agent Works Internally
 
 Process:
 
-```
+```text
 User Prompt
      ↓
 LLM interprets query
@@ -231,7 +229,7 @@ Returns answer / chart
 
 ---
 
-# 11. Viewing Generated Code
+## 11. Viewing Generated Code
 
 Because of:
 
@@ -252,7 +250,7 @@ Useful for:
 
 ---
 
-# 12. Best Practices (Important)
+## 12. Best Practices (Important)
 
 ### 1. Use Sandboxed Environments
 
@@ -271,13 +269,13 @@ Example:
 
 Good:
 
-```
+```text
 Count students aged 18
 ```
 
 Bad:
 
-```
+```text
 Tell me something about age
 ```
 
@@ -294,7 +292,7 @@ Refine prompts to improve results.
 
 ---
 
-# 13. Why It’s Useful
+## 13. Why It’s Useful
 
 Advantages:
 
@@ -302,4 +300,3 @@ Advantages:
 * Faster data exploration
 * Auto-generated Python code
 * Easy visualization creation
-
