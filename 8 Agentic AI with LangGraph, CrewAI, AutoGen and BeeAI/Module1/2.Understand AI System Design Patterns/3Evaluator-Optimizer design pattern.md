@@ -14,7 +14,7 @@ If the result does not meet the required standard, **feedback is sent back to th
 ---
 
 # 2. Basic Workflow
-
+![alt text](image.png)
 ```
 
 User Query
