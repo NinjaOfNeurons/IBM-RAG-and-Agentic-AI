@@ -212,3 +212,6 @@ MCP defines **3 types of primitives**:
 
   * STDIO → local
   * Streamable HTTP → remote
+
+
+![alt text](image.png)
